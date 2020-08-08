@@ -2,29 +2,27 @@
     background-color: #9146d6;
     }
 
-
     body {
         font-family: 'Luckiest Guy', cursive;
     }
-
-    /* li{
+    
+    li{
         padding-bottom: 3px;
         color: white;
         text-shadow: 1.5px 1px 3px black;
         list-style-type: none;
-    } */
+    }
     
     p{
         color: black;
-        text-shadow: .5px .5px white;
         text-align: center;
         font-size: xx-large;
+        font-family: 'Luckiest Guy', cursive;
     
     }
     h2{
         margin-top: -.5rem;
         font-size: 35px;
-
     }
     input{
         text-align: center;
@@ -39,8 +37,8 @@
         max-width: 80rem;
         margin: 0 auto;
       }
-
-    button {
+    
+      button {
         font-family: 'Luckiest Guy', cursive;
         display: inline-block;
         background-color: #0a9ea3;
@@ -52,27 +50,30 @@
         padding: 20px;
         width: 200px;
         margin-top: 4px;
+        margin-left: 4px;
     }
     
     button:hover{
-          cursor: pointer;
-          box-shadow: 4px 3px 6px white;
-    }
+        cursor: pointer;
+        box-shadow: 4px 3px 6px rgb(15, 14, 14);
+       
+  }
 
-    #homepage{
+    #homepage {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    #timer{
+    #time {
+        font-family: sans-serif;
         background-color: #5a69f0;
         color: #eeeeee;
         font-size: x-large;
         text-shadow: .5px .5px black;
         text-align: center;
     }
-    #quiz {
+    #quizSection {
         display: none;
     }
     
@@ -80,19 +81,19 @@
         display: none;
     }
     
-    #gameover {
+    #gameOver {
         text-align: center;
         display: none;
         flex-direction: column;
         align-items: center;
     }
-
-    /* #highScore{
+    
+    #highScore{
         height: 1.5rem;
         border: groove 2px;
     }
-     */
-    #highscore-page {
+    
+    #high-scorePage{
         display: none;
         width: 50%;
         border: solid;
@@ -102,15 +103,17 @@
         background: lightsteelblue;
     }
     
-    #highscore-header {
+    #highscore-header{
         display:flex;
         justify-content: space-around;
         border-bottom-style: outset;
         margin-bottom: .5rem;
-        background-color: #5e6df1;
+        background-color:#0a9ea3;
         color: #eeeeee;
+        font-family: sans-serif;
+
     }
-    #highscore-container {
+    #highscoreContainer{
         height: 100%;
         width: 100%;
         display: none;
@@ -124,24 +127,27 @@
         height: 1.75rem;
     }
     
-    #highscore-initials {
+    #highscore-initials{
         display: inline-block;
         padding-left: 9.5rem;
+        font-family: sans-serif;
         font-weight: bold;
     }
     
-    #highscore-score {
+    #highscore-score{
         float: right;
         padding-right: 8.75rem;
+        font-family: sans-serif;
         font-weight: bold;
     }
     
-    #final-score {
+    #endScore{
         padding-bottom: 0.5rem;
         font-size: x-large;
+        font-family: sans-serif;
         font-weight: bold;
     }
     
-    #gameover-btn {
+    #endGameBtns{
         display: none;
     } 
