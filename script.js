@@ -20,14 +20,14 @@ const btnC = document.querySelector("#c");
 const btnD = document.querySelector("#d");
 
 
-// The array of quiz auestions
+// The array of quiz Questions
 const quizQuestions = [
 
     {
         question: "Where is the correct place to insert a JavaScript?",
-        choiceA: "The <head> section",
+        choiceA: "The head section",
         choiceB: "Both the <head> section and the <body> section are correct",
-        choiceC: "The <body> section",
+        choiceC: "The body section",
         choiceD: "Outside the <html> tag",
         correctAnswer: "c"
     },
@@ -98,7 +98,7 @@ let timerInterval;
 let score = 0;
 let correct;
 
-// This function generates thye quiz questions
+// This function generates the quiz questions
 function questionGenerator() {
     gameoverDiv.style.display = "none";
     if (currentQuestionIndex === finalQuestionIndex) {

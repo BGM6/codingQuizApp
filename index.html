@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Luckiest+Guy&display=swap"
         rel="stylesheet">
-    <title>Code</title>
+    <title>Code Quiz</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -21,8 +21,10 @@
         </div>
 
         <div id="quizSection">
+            <!-- Timer -->
             <div id="time">Time left: </div>
             <div id="quizQuestions">
+                <!-- This checks the questions -->
                 <p>Questions Placeholder</p>
             </div>
             <button id="a" onclick="checkAnswer('a')">A</button>
@@ -38,7 +40,7 @@
             <button id="submitScore">Submit Score</button>
         </div>
 
-
+        <!-- Container for the highscores -->
         <div id=highscoreContainer>
 
             <div id="high-scorePage">
@@ -50,6 +52,7 @@
                 <div id="highscore-score"></div>
             </div>
 
+            <!-- Game over button -->
             <div id="endGameBtns">
                 <button id="playAgain" onclick="replayQuiz()">Play Again</button>
                 <button id="clearHighscore" onclick="clearScore()">Clear Highscores</button>
